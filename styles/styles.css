@@ -364,8 +364,8 @@ section {
 
 header {
   position: fixed;
-  padding: 14% 0 0 14%;
-  width: 43%;
+  padding: 14% 0 0 5%;
+  width: 50%;
   height: 100%;
   z-index: 2;
   background-color: #fef8f8;
@@ -375,7 +375,7 @@ header .sideBar h1 {
   margin: 0px auto;
 }
 header .sideBar .jobTitle {
-  padding-left: 34px;
+  padding-top: 20px;
 }
 header .sideBar .navItems {
   padding: 10% 25% 0 0;
@@ -398,14 +398,23 @@ header .sideBar .icons {
 
 .imgBox1 {
   position: absolute;
-  left: 75%;
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
-.imgBox1 .pic {
-  display: block;
-  left: min(72%, 500px);
-  -webkit-transform: translate(-55%, 0);
-          transform: translate(-55%, 0);
-  position: absolute;
+.imgBox1 p {
+  margin-top: 1%;
 }
 
 .spacer {

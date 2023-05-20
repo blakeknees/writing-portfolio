@@ -57,8 +57,8 @@ section {
 // Header
 header {
     position: fixed;
-    padding: 14% 0 0 14%;
-    width: 43%;
+    padding: 14% 0 0 5%;
+    width: 50%;
     height: 100%;
     z-index: 2;
     background-color: variables.$snow;
@@ -72,7 +72,7 @@ header {
         }
 
         .jobTitle {
-            padding-left: 34px;
+            padding-top: 20px;
         }
 
         .navItems {
@@ -97,13 +97,16 @@ header {
 // Main
 .imgBox1 {
     position: absolute;
-    left: 75%;
-    
-    .pic {
-        display: block;
-        left: min(72%, 500px);
-        transform: translate(-55%, 0);
-        position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    p {
+        margin-top: 1%;
     }
 }
 
