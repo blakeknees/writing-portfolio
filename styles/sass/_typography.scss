@@ -1,0 +1,85 @@
+@use "variables";
+
+// import fonts
+@font-face {
+    font-family: 'Nunito';
+    src: url("../assets/fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'BV';
+    src: url("../assets/fonts/BeVietnamPro-SemiBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'BV';
+    src: url("../assets/fonts/BeVietnamPro-Regular.ttf");
+    font-weight: normal;
+}
+
+// global font styles
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: variables.$font2;
+    font-size: 1rem;
+    color: variables.$dark-blue-gray;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h4, footer {
+    font-family: variables.$font1;
+}
+
+h1 {
+    font-size: clamp(2.4rem, 4vw, 3.38rem);
+    color: variables.$shamrock-green;
+}
+
+h2 {
+    color: variables.$vivid-tangerine;
+
+}
+
+.jobTitle {
+    font-size: clamp(.77rem, 1.31vw, 1.15rem);
+    color: variables.$dark-blue-gray;
+}
+
+h2 {
+    font-size: clamp(1.45rem, 2.5vw, 2rem);
+}
+
+h3, p {
+    font-weight: normal;
+}
+
+h4, h3 {
+    font-size: clamp(1rem, 1.35vw, 1.15rem);
+}
+
+p {
+    font-size: clamp(1rem, 1vw, 1.10rem);
+}
+
+h5 {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+i {
+    font-size: clamp(1.25rem, 1.75vw, 1.5rem);
+}
+
+button, .sBox2 p, footer p {
+    font-size: clamp(.8rem, 1.25vw, 1rem);
+}

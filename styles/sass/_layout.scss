@@ -1,0 +1,232 @@
+@use "variables";
+
+// General Layout Styles and Resets
+html {
+    scroll-behavior: smooth;
+}
+
+.mainWrapper {
+    padding: 0 5% 0 40%; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: variables.$snow;
+    overflow-x: hidden;
+}
+
+h2, h3 {
+    margin: 0 0;
+}
+
+h5, p {
+    margin-block: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    color: variables.$snow;
+    border-radius: 2%;
+    box-shadow: inset 0px 0px 6px 3px variables.$pink;
+    background: linear-gradient(variables.$snow, variables.$purple);
+    padding: 2% 3% 2% 3%;
+}
+
+section {
+    display: flex;
+    padding: 0 0 0 10%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.visible {
+    opacity: 1;
+}
+
+// Header
+header {
+    position: fixed;
+    padding: 14% 0 0 14%;
+    width: 43%;
+    height: 100%;
+    z-index: 2;
+    background-color: variables.$snow;
+
+    // Side Nav Bar
+    .sideBar {
+        // positionining my name and job title
+        h1 {
+            line-height: .9;
+            margin: 0px auto;
+        }
+
+        .jobTitle {
+            padding-left: 34px;
+        }
+
+        .navItems {
+            padding: 10% 25% 0 0;
+            position: relative;
+            left: 35%;
+
+            li {
+                padding-top: 15px;
+            }
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            padding: 30% 25% 0 0;
+            gap: 20px;
+        }
+    }
+}
+
+// Main
+.imgBox1 {
+    position: absolute;
+    left: 75%;
+    
+    .pic {
+        display: block;
+        left: min(72%, 500px);
+        transform: translate(-55%, 0);
+        position: absolute;
+    }
+}
+
+.spacer {
+    height: 125vh;
+}
+
+// Hello! Section
+
+.hello {
+    h2 {
+        padding-top: 30%;
+    }
+
+    .aBox1 p {
+        line-height: 40px;
+    }
+}
+
+// Skills Section
+.skills {
+    display: flex;
+    flex-direction: column;
+    
+    h2 {
+        padding-top: 10%;
+    }
+
+    .sBox1 {
+        width: 100%;
+    }
+
+    .sBox2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                align-self: center;
+            }
+        }
+
+        i {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+        }
+        
+        .netlify, .p5, .ableton, .keyshot, .zbrush {
+            width: clamp(50px, 6vw, 5rem);
+        }
+    }
+
+
+}
+
+// Projects Section
+.projects {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding-top: 5%;
+    }
+
+    h4 {
+        margin: 0 auto;
+    }
+
+    .project {
+        display: flex;
+        padding-top: 5%;
+
+        .pBoxImg, .pBox {
+            width: 50%;
+        }
+
+        img {
+            width: 75%;
+            -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+// Contact/Get in touch Section
+.contact {
+    padding-top: 20%;
+    padding-bottom: 5%;
+
+    p {
+        width: 70%;
+    }
+    
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        label {
+            padding-block: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    }
+}
+
+// Footer
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    padding: 0 0 4% 0;
+
+    p {
+        margin-block: 2%;
+    }
+}

@@ -1,0 +1,21 @@
+@use "variables";
+
+button:hover {
+    transform: scale(105%);
+    transition: transform .2s ease-in-out;
+}
+
+button:focus {
+    transform: scale(105%);
+    transition: transform .2s ease-in-out;
+}
+
+.icons i:hover, .sideBar a:hover {
+    color: variables.$vivid-tangerine;
+    transition: color, transform .15s ease-in-out;
+}
+
+.icons i:focus, .sideBar a:focus {
+    color: variables.$vivid-tangerine;
+    transition: color, transform .15s ease-in-out;
+}
