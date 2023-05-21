@@ -6,13 +6,13 @@ html {
 }
 
 .mainWrapper {
-    padding: 0 5% 0 40%; 
+    padding: 0 5% 0 20%; 
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: variables.$snow;
+    background-color: variables.$lavender;
     overflow-x: hidden;
 }
 
@@ -58,14 +58,14 @@ section {
 header {
     position: fixed;
     padding: 14% 0 0 5%;
-    width: 50%;
+    width: 40%;
     height: 100%;
     z-index: 2;
-    background-color: variables.$snow;
+    background-color: variables.$lavender;
 
     // Side Nav Bar
     .sideBar {
-        // positionining my name and job title
+
         h1 {
             line-height: .9;
             margin: 0px auto;
@@ -78,7 +78,6 @@ header {
         .navItems {
             padding: 10% 25% 0 0;
             position: relative;
-            left: 35%;
 
             li {
                 padding-top: 15px;
@@ -114,9 +113,11 @@ header {
     height: 125vh;
 }
 
-// Hello! Section
+// About Section
 
-.hello {
+.about {
+    margin-left: 20%;
+
     h2 {
         padding-top: 30%;
     }
@@ -128,11 +129,13 @@ header {
 
 // Skills Section
 .skills {
+    margin-left: 20%;
     display: flex;
     flex-direction: column;
     
     h2 {
         padding-top: 10%;
+        margin-left: 5%;
     }
 
     .sBox1 {
@@ -141,19 +144,16 @@ header {
 
     .sBox2 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
 
         li {
             display: flex;
             flex-direction: column;
-            align-items: center;
-
-            p {
-                align-self: center;
-            }
+            // align-items: center;
+            text-align: left;
         }
 
         i {

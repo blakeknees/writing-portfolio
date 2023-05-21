@@ -262,7 +262,7 @@ h1, h2, h4, footer {
 
 h1 {
   font-size: clamp(2.4rem, 4vw, 3.38rem);
-  color: #41a162;
+  color: #003636;
 }
 
 h2 {
@@ -309,13 +309,13 @@ html {
 }
 
 .mainWrapper {
-  padding: 0 5% 0 40%;
+  padding: 0 5% 0 20%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #fef8f8;
+  background-color: #f5d9f7;
   overflow-x: hidden;
 }
 
@@ -365,10 +365,10 @@ section {
 header {
   position: fixed;
   padding: 14% 0 0 5%;
-  width: 50%;
+  width: 40%;
   height: 100%;
   z-index: 2;
-  background-color: #fef8f8;
+  background-color: #f5d9f7;
 }
 header .sideBar h1 {
   line-height: 0.9;
@@ -380,7 +380,6 @@ header .sideBar .jobTitle {
 header .sideBar .navItems {
   padding: 10% 25% 0 0;
   position: relative;
-  left: 35%;
 }
 header .sideBar .navItems li {
   padding-top: 15px;
@@ -421,14 +420,18 @@ header .sideBar .icons {
   height: 125vh;
 }
 
-.hello h2 {
+.about {
+  margin-left: 20%;
+}
+.about h2 {
   padding-top: 30%;
 }
-.hello .aBox1 p {
+.about .aBox1 p {
   line-height: 40px;
 }
 
 .skills {
+  margin-left: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,16 +442,17 @@ header .sideBar .icons {
 }
 .skills h2 {
   padding-top: 10%;
+  margin-left: 5%;
 }
 .skills .sBox1 {
   width: 100%;
 }
 .skills .sBox2 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
 }
 .skills .sBox2 li {
   display: -webkit-box;
@@ -458,13 +462,7 @@ header .sideBar .icons {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.skills .sBox2 li p {
-  -ms-flex-item-align: center;
-      align-self: center;
+  text-align: left;
 }
 .skills .sBox2 i {
   font-size: clamp(2.5rem, 6vw, 5rem);
