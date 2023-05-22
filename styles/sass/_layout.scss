@@ -97,11 +97,11 @@ header {
 }
 
 // Main
-.imgBox1 {
+.landingBox {
     position: absolute;
-    margin-top: 10%;
-    margin-left: 10%;
-    height: 90vh;
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +122,7 @@ header {
     margin-left: 20%;
 
     h2 {
-        padding-top: 30%;
+        padding-top: 28%;
     }
 
     .aBox1 p {
@@ -137,7 +137,7 @@ header {
     flex-direction: column;
     
     h2 {
-        padding-top: 10%;
+        padding-top: 28%;
         margin-left: 5%;
     }
 
@@ -178,6 +178,7 @@ header {
 
     h2 {
         padding-top: 5%;
+        padding-left: 30%;
     }
 
     h4 {
@@ -187,15 +188,10 @@ header {
     .project {
         display: flex;
         padding-top: 5%;
+        padding-left: 30%;
 
-        .pBoxImg, .pBox {
+        .pBox {
             width: 50%;
-        }
-
-        img {
-            width: 75%;
-            -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
         }
     }
 }

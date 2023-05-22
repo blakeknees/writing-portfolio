@@ -395,11 +395,11 @@ header .sideBar .icons {
   gap: 20px;
 }
 
-.imgBox1 {
+.landingBox {
   position: absolute;
-  margin-top: 10%;
-  margin-left: 10%;
-  height: 90vh;
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,7 +412,7 @@ header .sideBar .icons {
           justify-content: center;
   text-align: center;
 }
-.imgBox1 p {
+.landingBox p {
   margin-top: 1%;
 }
 
@@ -424,7 +424,7 @@ header .sideBar .icons {
   margin-left: 20%;
 }
 .about h2 {
-  padding-top: 30%;
+  padding-top: 28%;
 }
 .about .aBox1 p {
   line-height: 40px;
@@ -441,7 +441,7 @@ header .sideBar .icons {
           flex-direction: column;
 }
 .skills h2 {
-  padding-top: 10%;
+  padding-top: 28%;
   margin-left: 5%;
 }
 .skills .sBox1 {
@@ -482,6 +482,7 @@ header .sideBar .icons {
 }
 .projects h2 {
   padding-top: 5%;
+  padding-left: 30%;
 }
 .projects h4 {
   margin: 0 auto;
@@ -491,14 +492,10 @@ header .sideBar .icons {
   display: -ms-flexbox;
   display: flex;
   padding-top: 5%;
+  padding-left: 30%;
 }
-.projects .project .pBoxImg, .projects .project .pBox {
+.projects .project .pBox {
   width: 50%;
-}
-.projects .project img {
-  width: 75%;
-  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .contact {
