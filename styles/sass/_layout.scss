@@ -155,16 +155,11 @@ header {
         li {
             display: flex;
             flex-direction: column;
-            // align-items: center;
             text-align: left;
         }
 
         i {
             font-size: clamp(2.5rem, 6vw, 5rem);
-        }
-        
-        .netlify, .p5, .ableton, .keyshot, .zbrush {
-            width: clamp(50px, 6vw, 5rem);
         }
     }
 

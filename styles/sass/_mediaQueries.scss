@@ -89,8 +89,7 @@
         }
 
         h1 {
-            font-size: 2.4rem;
-            padding: 0 0 0 12%;
+            font-size: 2.2rem;
         }
 
         .jobTitle {
@@ -127,6 +126,53 @@
 
     .mainWrapper {
     padding: 0 5% 0 5%;
+
+        .landingBox {
+            margin-top: 40%;
+            margin-left: 0;
+        }
+
+        .about {
+            padding-top: 55%;
+            margin-left: 0;
+            h2 {
+                padding-top: 0;
+            }
+        }
+        
+        .skills {
+            margin-left: 0;
+            padding-top: 55%;
+            
+            h2 {
+                padding-top: 0;
+            }
+
+            .sBox2 {
+                padding-left: 20px;
+
+            }
+        }
+
+        .projects {
+            padding-top: 55%;
+            
+            h2 {
+                padding-top: 0;
+                padding-left: 0;
+            }
+
+            .project {
+                padding-left: 0;
+            }
+        }
+
+        .contact {
+            h2 {
+                padding-top: 40%;
+            }
+            margin-top: 0;
+        }
     }
 
     section {
