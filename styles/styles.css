@@ -271,7 +271,7 @@ h2 {
 
 .jobTitle {
   font-size: clamp(0.77rem, 1.31vw, 1.15rem);
-  color: #6e688c;
+  color: #673c85;
 }
 
 h2 {
@@ -384,14 +384,14 @@ header .sideBar .navItems {
 header .sideBar .navItems li {
   padding-top: 15px;
 }
+header .sideBar .navItems li h3 {
+  color: #003636;
+}
 header .sideBar .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30% 25% 0 0;
+  padding-top: 20%;
   gap: 20px;
 }
 
