@@ -57,7 +57,7 @@ section {
 // Header
 header {
     position: fixed;
-    padding: 14% 0 0 5%;
+    padding: 5% 0 0 5%;
     width: 40%;
     height: 100%;
     z-index: 2;
@@ -122,12 +122,22 @@ header {
     margin-left: 20%;
 
     h2 {
-        padding-top: 28%;
+        padding-top: 10%;
     }
 
     .aBox1 p {
-        line-height: 40px;
+        line-height: 30px;
+        font-size: 14px;
     }
+    
+
+    .headshot {
+        width: 40%;
+        border-radius: 10px;
+        float: left;
+        margin: 6% 6% 2% 0%;
+    }
+    
 }
 
 // Skills Section
