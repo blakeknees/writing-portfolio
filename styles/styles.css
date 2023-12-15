@@ -387,13 +387,6 @@ header .sideBar .navItems li {
 header .sideBar .navItems li h3 {
   color: #003636;
 }
-header .sideBar .icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 20%;
-  gap: 20px;
-}
 
 .landingBox {
   position: absolute;
@@ -485,45 +478,44 @@ header .sideBar .icons {
           flex-direction: column;
 }
 .projects h2 {
-  padding-top: 5%;
   padding-left: 30%;
 }
+.projects h3 {
+  margin-left: 30%;
+}
 .projects h4 {
-  margin: 0 auto;
+  margin: 0;
 }
 .projects .project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 5%;
+  padding-top: 2%;
   padding-left: 30%;
 }
 .projects .project .pBox {
   width: 50%;
 }
+.projects .project .pBox p, .projects .project .pBox a {
+  font-size: 12px;
+}
+.projects .project .pBox ul {
+  padding-left: 0;
+  padding-right: -4rem;
+}
 
 .contact {
-  padding-top: 20%;
+  padding-left: 30%;
   padding-bottom: 5%;
 }
 .contact p {
   width: 70%;
 }
-.contact .contactForm {
+.contact .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-}
-.contact .contactForm label {
-  padding-block: 10px;
-}
-.contact .contactForm button {
-  margin-top: 10px;
+  gap: 20px;
 }
 
 footer {
